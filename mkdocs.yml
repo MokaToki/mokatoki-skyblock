@@ -1,6 +1,7 @@
 site_name: Mokatoki Skyblock Wiki
 site_description: The official Mokatoki Skyblock server guide and command directory.
 site_author: Mokatoki Staff
+site_url: https://wiki.mokatoki.com/
 
 theme:
   name: material
