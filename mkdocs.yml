@@ -1,0 +1,58 @@
+site_name: Mokatoki Skyblock Wiki
+site_description: The official Mokatoki Skyblock server guide and command directory.
+site_author: Mokatoki Staff
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Island Guide:
+    - Commands & Setup: island/commands.md
+    - Level & Worth: island/level_worth.md
+  - Automation:
+    - Minions: automation/minions.md
+  - Character & Progression:
+    - Skills: progression/skills.md
+    - Quests & Jobs: progression/quests_jobs.md
+  - Gear & Companions:
+    - Talismans: gear_companions/talismans.md
+    - Pets: gear_companions/pets.md
+  - Server Activities:
+    - Special Events: activities/events.md
+  - Economy & Trading:
+    - Economy, Trades & Auctions: economy/economy_trading.md
+  - Social & Look:
+    - Friends & Social: social/friends.md
+    - Cosmetics: social/cosmetics.md
